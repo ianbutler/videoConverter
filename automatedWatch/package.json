@@ -1,0 +1,24 @@
+{
+  "name": "watchthatshit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "express": "4.15.2",
+    "fs": "0.0.1-security",
+    "handbrake-js": "3.0.6",
+    "hound": "^1.0.5"
+  },
+  "devDependencies": {
+    "jest": "^23.4.2",
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon ./",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
