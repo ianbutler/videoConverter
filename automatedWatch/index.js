@@ -37,8 +37,8 @@ function handleArrayChange() {
 var watcher1 = hound.watch(path.join(__dirname, "../" + watchFolder1));
 watcher1.on("create", createFileHandler);
 
-var watcher2 = hound.watch(path.join(__dirname, "../" + watchFolder2));
-watcher2.on("create", createFileHandler);
+// var watcher2 = hound.watch(path.join(__dirname, "../" + watchFolder2));
+// watcher2.on("create", createFileHandler);
 
 function createFileHandler(file) {
   if (!file) return;

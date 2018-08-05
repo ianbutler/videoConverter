@@ -15,8 +15,8 @@ module.exports = {
   watchFolder1: "TEST NEED CONVERT",
   convertedFolder1: "TEST",
 
-  watchFolder2: "TV NEED CONVERT",
-  convertedFolder2: "TV",
+  //watchFolder2: "TV NEED CONVERT",
+  //convertedFolder2: "TV",
 
   // these folders must be present as well
   aviFiles: "aviFiles",
